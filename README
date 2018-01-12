@@ -1,0 +1,6 @@
+Simple one-page Flask experiment to run a shell command without javascript
+
+pip install pipenv
+pipenv install Flask
+pipenv shell
+FLASK_APP=shell.py flask run (--host=0.0.0.0)

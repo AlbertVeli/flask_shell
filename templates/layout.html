@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset='utf-8'>
+  <link rel=stylesheet href="{{ url_for('static', filename='css/terminal.css') }}">
+  {% if title %}
+  <title>{{ title }}</title>
+  {% endif %}
+</head>
+<body>
+<pre>
+          ___
+      .-"; ! ;"-.
+    .'!  : | :  !`.
+   /\  ! : ! : !  /\
+  /\ |  ! :|: !  | /\
+ (  \ \ ; :!: ; / /  )
+( `. \ | !:|:! | / .' )
+(`. \ \ \!:|:!/ / / .')
+ \ `.`.\ |!|! |/,'.' /
+  `._`.\\\!!!// .'_.'
+     `.`.\\|//.'.'
+      |`._`n'_.'|
+      "----^----"
+</pre>
+<!-- All your shells are belong to us -->
+{% block body %}{% endblock %}
+</body>
+</html>
